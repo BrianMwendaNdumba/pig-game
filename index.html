@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:100,300,600" type="text/css">
+    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" type="text/css">
+    <link rel='stylesheet' href='css/game.css'>
+    <title>pig game</title>
+</head>
+
+<body>
+
+
+
+  <section>
+   <div class = 'wrapper clearfix'>
+
+     <a href="#" class='btn-new'><i class='ion-ios-plus-outline'></i><img class="n" src="newgame.png"><br>New game</a>
+
+
+
+
+        <div class ='player-0-panel active'>
+                <div class = 'player-name' id='name-0'>player 1</div>
+                <div class = 'player-score' id='score-0'>43</div>
+                <div class = 'player-current-box'>
+                    <div class = 'player-current-label'>current</div>
+                    <div class = 'player-current-score' id = 'current-0'>11</div>
+
+                </div>
+        </div>
+    </div>
+    <img src="dice 5.png" alt="Dice" id="dice">
+
+
+<div class = 'player-1-panel'>
+    <div class = 'player-name' id = 'name-1'>player 2</div>
+    <div class = 'player-score'id = 'score-1'>72</div>
+    <div class = 'player-current-box'>
+        <div class= 'player-current-label'>current</div>
+        <div class = 'player-current-score' id = 'current-1'>0</div>
+    </div>
+
+
+
+
+    <a href="#" class='btn-roll'><i class='ion-ios-loop'></i><img class="r" src="rolldice.png"><br>Roll dice</a>
+    <input type="text" placeholder = "final score" class = 'final-score'/>
+    <a href="#" class='btn-hold'><i class='ion-ios-download-outline'></i><img class="h" src="holddown.png"><br>Hold</a><br><br><br>
+
+
+</div>
+
+
+
+</section>
+
+<div class="alert" style="">
+  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+  <a>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;HALLO! MY NAME IS PIGIE,,Brian Mwenda made me,and i am here to assist you.  :)<br><br>
+                  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; I am a dice game made for you to play.<br>
+                &emsp; > You are required to 'ROLL DICE' then 'HOLD' the score which is recorded in the current player field.<br>
+                &emsp; > You can roll as many time as you feel like to gain more points which are summed up in the round scores.&emsp;<br>
+                &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  NOTE:if you roll a '1' it is the next players turn.<br>
+                &emsp; > if you roll a '0' your round score becomes zero and you restart a fresh.<br>
+                &emsp; > The maxmum score can be set at the 'FINAL SCORE BOX' below <br>
+                &emsp; >whoever reaches the maxmum score being the first gets to be the winner.<br><br>
+              &emsp;>if i dont display well, rotate your phone so i can display better :)
+                &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  GOOD LUCK AND HAVE FUN PLAYING ME ;)<a>
+</div>
+
+
+<script src='script.js'></script>
+
+
+</body>
+</html>
